@@ -27,18 +27,18 @@ assessments, the system works without cloud APIs, making it suitable for low-con
 
 🛠️TECH STACK USED
 
-📈FRONTEND
+📈FRONTEND ➨
 🎯HTML
 🎯CSS
 🎯JavaScript (Vanilla JS)
 🎯EJS (Embedded JavaScript templates)
 
-📈BACKEND
+📈BACKEND ➨
 🎯Node.js
 🎯Express.js
 🎯MongoDB (Mongoose)
 
-📈OFFLINE PROCESSING
+📈OFFLINE PROCESSING ➨
 🎯Whisper.cpp (Audio Transcription)
 🎯PDF parsing using pdf-parse
 🎯NLP-based summarization and quiz generation (Text processing logic)
