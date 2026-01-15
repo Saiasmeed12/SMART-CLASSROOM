@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Smart Classroom</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <img src="/images/TRY3.png" alt="Smart Classroom" class="sketch-img">
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+
+    <!-- UPLOAD SECTION -->
+    <section id="upload-area">
+      <div class="upload-bar" id="upload-audio"><h1>UPLOAD AUDIO</h1></div>
+      <input type="file" id="audio-input" accept="audio/*,video/*" hidden>
+
+      <div class="upload-bar" id="upload-pdf"><h1>UPLOAD PDF</h1></div>
+      <input type="file" id="pdf-input" accept="application/pdf" hidden>
+    </section>
+
+    <!-- SUMMARY -->
+    <section id="status">
+      <h1>SUMMARY OF AUDIO / PDF </h1>
+      <div id="summary">
+        <h1>No file uploaded yet.</h1>
+      </div>
+
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz">
+      <h2>GENERATED QUIZ</h2>
+      <div id="quiz-content">
+        <h1>No quiz yet.</h1>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/js/upload.js"></script>
+
+</body>
+</html>
