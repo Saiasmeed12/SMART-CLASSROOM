@@ -1,8 +1,8 @@
-⭐An offline-first smart classroom web application designed to help students learn more effectively by converting audio lectures and PDF documents into structured summaries and automated
+An offline-first smart classroom web application designed to help students learn more effectively by converting audio lectures and PDF documents into structured summaries and automated
 assessments, the system works without cloud APIs, making it suitable for low-connectivity environments.
 
 
-⚙️ HOW IT WORKS
+=> HOW IT WORKS
 
 ❖User uploads an audio file or PDF document.
 
@@ -21,53 +21,46 @@ assessments, the system works without cloud APIs, making it suitable for low-con
 
 
 
-🛠️FEATURES 
+=> FEATURES 
 
-🎯Upload audio lectures and transcribe them offline
+❖Upload audio lectures and transcribe them offline
 
-🎯Upload PDF documents and extract readable text
+❖Upload PDF documents and extract readable text
 
-🎯Generate concise summaries from audio and PDF content
+❖Generate concise summaries from audio and PDF content
 
-🎯Automatically create MCQs and Fill-in-the-Blanks quizzes
+❖Automatically create MCQs and Fill-in-the-Blanks quizzes
 
-🎯Instant evaluation with percentage-based performance analysis
+❖Instant evaluation with percentage-based performance analysis
 
-🎯Visual feedback for correct and incorrect answers
+❖Visual feedback for correct and incorrect answers
 
-🎯Simple and responsive user interface
+❖Simple and responsive user interface
 
-🛠️TECH STACK USED
+=> TECH STACK USED
 
-📈FRONTEND 
+=> FRONTEND 
 
-🎯HTML
+❖HTML
 
-🎯CSS
+❖CSS
 
-🎯JavaScript (Vanilla JS)
+=> BACKEND 
+ 
+❖Express.js + ❖EJS (Embedded JavaScript templates)
 
-🎯EJS (Embedded JavaScript templates)
+❖MongoDB (Mongoose)
 
+=> OFFLINE PROCESSING 
 
-📈BACKEND 
+❖Whisper.cpp (Audio Transcription)
 
-🎯Node.js
+❖PDF parsing using pdf-parse
 
-🎯Express.js
-
-🎯MongoDB (Mongoose)
-
-📈OFFLINE PROCESSING 
-
-🎯Whisper.cpp (Audio Transcription)
-
-🎯PDF parsing using pdf-parse
-
-🎯NLP-based summarization and quiz generation (Text processing logic)
+❖NLP-based summarization and quiz generation (Text processing logic)
 
 
-⚙️FUTURE ENCHANCEMENTS
+=>FUTURE ENCHANCEMENTS
 
 🔹Background job processing for heavy tasks
 🔹User authentication and progress tracking
